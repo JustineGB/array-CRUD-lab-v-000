@@ -7,22 +7,18 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-array = [1, 2, 3, 4]
 array << 5
 end
 
 def add_element_to_start_of_array(array, element)
-array = [1, 2, 3, 4]
 array.unshift(0)
 end
 
 def remove_element_from_end_of_array(array)
-array = [1, 2, 3, 4]
 array.pop
 end
 
 def remove_element_from_start_of_array(array)
-array = [1, 2, 3, 4]
 array.shift
 end
 
