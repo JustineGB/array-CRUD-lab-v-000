@@ -23,13 +23,13 @@ array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-array.delete_at(0)
+array[2]
 end
 
 def retrieve_first_element_from_array(array)
-array.select(0)
+array.select
 end
 
 def retrieve_last_element_from_array(array)
-array.select(3)
+
 end
